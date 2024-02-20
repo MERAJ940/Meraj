@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="res">
+                <h1>Sugu</h1>
+  <a href="cart.html"><img src="https://cdn-icons-png.flaticon.com/128/759/759412.png" id="meraj" width="30px" ></a>
+              </div>
+              <div class="count">
+                <p id="count">0</p >
+              </div>
+              <div id="menu" onclick="openMenu()"><i class="fa-solid fa-bars"></i></div>
+            <div class="navbar">
+                 <ul>
+                    <div id="hide" onclick=" closeMenu()">
+                        <h2>X</h2>
+                      </div>
+                   <h1 class="logo">Sugu</h1>
+                     <li><a href="sugu.html">Home</a></li>
+                     <li><a href="index.html">About</a></li>
+                     <li><a href="index.html">Men's</a></li>
+                     <li><a href="index.html">Women's</a></li>
+                     <li><a href="index.html">Kids</a></li>
+                     <li><a href="index.html">Contact Us</a></li>
+                     <a href="cart.html"><img src="https://cdn-icons-png.flaticon.com/128/759/759412.png"  width="30px"> </a>  
+                 </ul>
+            </div>
+        </nav>
+      </header> 
+      
+          <div class="detail">
+    
+              <img id="fullImage" src="women's 4.webp" alt="">
+              <div id="view">
+                <img src="view.webp" onclick="myFunction(this)">
+            <img src="view2.webp" onclick="myFunction(this)">
+            <img src="view3.webp" onclick="myFunction(this)">
+            <img src="veiw last.webp" onclick="myFunction(this)">
+            <img src="women's 4.webp" onclick="myFunction(this)">
+        </div>
+              <div class="discount">
+                <div class="moond">
+                  <h3>loosi brand women- T sirt</h3>
+                  <p id="sora">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex nulla sapiente?</p>
+                  <div id="icon">
+                      <p><i class="fa-sharp fa-solid fa-star"></i></p>
+                      <p><i class="fa-sharp fa-solid fa-star"></i></p>
+                      <p><i class="fa-sharp fa-solid fa-star"></i></p>
+                      <p><i class="fa-sharp fa-solid fa-star"></i></p>
+                      <p><i class="fa-solid fa-star-half-stroke"></i></p>
+                    </div>
+                  <h2>special price,<br> 17.00 $ </h2>
+                  <div class="cart">
+                    <button id="cart">Add to Cart</button>
+                    <button id="cancel">Buy</button>
+                </div>
+              </div>
+                  <div class="size">
+                      <h3>size</h3>
+                      <select name="size" id="size">
+                          <option value="number">M</option>
+                          <option value="number">L</option>
+                          <option value="number">XL</option>
+                          <option value="number">XXL</option>
+                      </select>
+                      <div id="color">
+                         <p>color</p>
+                      </div>
+              </div>
+          </div>
+          </div>
+        
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sugu ecomorcee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="res">
+            <h1>Sugu</h1>
+            <img src="https://cdn-icons-png.flaticon.com/128/759/759412.png" id="meraj" width="30px">
+          </div>
+          <div id="menu" onclick="openMenu()"><i class="fa-solid fa-bars"></i></div>
+            <div class="navbar">
+                 <ul>
+                   <div id="hide" onclick=" closeMenu()">
+                     <h2>X</h2>
+                   </div>
+                   <h1 class="logo">Sugu</h1>
+                     <li><a href="sugu.html">Home</a></li>
+                     <li><a href="index.html">About</a></li>
+                     <li><a href="index.html">Men's</a></li>
+                     <li><a href="index.html">Women's</a></li>
+                     <li><a href="index.html">Kids</a></li>
+                     <li><a href="index.html">Contact Us</a></li>
+                      <a href="cart.html"><img src="https://cdn-icons-png.flaticon.com/128/759/759412.png"  width="30px"></a>
+                 </ul>
+            </div>
+        </nav>
+      </header>
+   <div class="banner">
+    <section class="left">
+        <img src="banner.png" >
+    </section>
+<div class="contact">
+    <h1>Contact Us</h1>
+    <h2 id="errorMassage"></h2>
+    <form id="contactForm">
+      <input type="text" placeholder="First Name" id="FirstName">
+      <input type="text" placeholder="Last Name" id="LastName">
+      <input type="email" placeholder="email" id="Mail">
+      <input type="password" placeholder="password" id="password">
+      <div id="show-hide">
+        <i id="hide-text" class="fa-solid fa-eye-slash" onclick="Hide()"></i>
+        <i id="show-text" class="fa-regular fa-eye" onclick="Hide()"></i>
+      </div>
+        <button type="button" onclick=" submitForm ()">Submit</button>
+</div>
+</div>
+<div class="col2">
+  <div class="footer">
+    <div class="row1">
+      <div id="row">
+        <p>ABOUT</p>
+        <ul>
+          <li><a href="">Contact us</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">Carrers</a></li>
+          <li><a href="">Press</a></li>
+          <li><a href="">Purchase</a></li>
+          <li><a href="">Business information</a></li>
+          <li><a href="">sales</a></li>
+        </ul>
+      </div>
+      <div id="row">
+        <p>ABOUT</p>
+        <ul>
+          <li><a href="">Contact us</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">Carrers</a></li>
+          <li><a href="">Press</a></li>
+          <li><a href="">Purchase</a></li>
+          <li><a href="">Business information</a></li>
+          <li><a href="">sales</a></li>
+        </ul>
+      </div>
+      <div id="row">
+        <p>ABOUT</p>
+        <ul>
+          <li><a href="">Contact us</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">Carrers</a></li>
+          <li><a href="">Press</a></li>
+          <li><a href="">Purchase</a></li>
+          <li><a href="">Business information</a></li>
+          <li><a href="">sales</a></li>
+        </ul>
+      </div>
+      <div class="email">
+        <input type="email" placeholder="Your - Email" id="email" >
+        <i id="hidetext" class="fa-solid fa-eye-slash" onclick="hide()"></i>
+        <i id="showtext" class="fa-regular fa-eye" onclick="hide()"></i>
+      </div>
+      <button id="ctn">Send</button>
+    </div>
+    <div class="method">
+      <h1> <i class="fa-brands fa-paypal"></i></h1>
+      <h1><i class="fa-brands fa-google-pay"></i></h1>
+      <h1><i class="fa-brands fa-amazon-pay"></i></h1>
+      <h1><i class="fa-brands fa-apple-pay"></i></h1>
+    </div>
+<hr>
+    <div class="details">
+      
+      <div class="svg">
+        <p id="copyright">@Copyright0877</p>
+        <img src="instagram.svg" alt="" width="20px">
+        <img src="facebook.svg" alt="" width="25px">
+        <p id="call"><i class="fa-solid fa-phone"></i></p>
+        <h3 id="dial">+99056 47286</h3>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
