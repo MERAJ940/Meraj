@@ -838,7 +838,10 @@ font-family: 'Amaranth', sans-serif;
 }
 /* resposnive website */
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:575.98px) {
+    body{
+        overflow-x: hidden;
+    }
     .navbar {
         display: none;
         width: 150px;
@@ -859,6 +862,7 @@ font-family: 'Amaranth', sans-serif;
          display: none;
 
 }
+
 
 
 nav .res{
@@ -1104,7 +1108,7 @@ font-family: 'Amaranth', sans-serif;
     background-color: navajowhite;
 }
 hr{
-    margin-top: 160px;
+    margin-top: 200px;
 
 
 }
@@ -1115,6 +1119,7 @@ hr{
     position: relative;
     left: 9%;
     bottom: 20px;
+    color: white;
 
     
 }
@@ -1164,9 +1169,21 @@ hr{
     top: 62px;
 }
 
-}
+
 .footer{
-    height: 72vh;
+    height: 80vh;
+    
+}
+/* kids style */
+.kidsdress img{
+    width: 200px;
+
+}
+.kidsdress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 }
