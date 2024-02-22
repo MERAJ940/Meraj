@@ -19,6 +19,7 @@ header{
     background-color: antiquewhite;
     color:black;
     height: 60px;
+    width: 100%;
  box-shadow: 10px 5px 5px rgb(51, 49, 49);
 }
 .navbar ul{
@@ -837,17 +838,15 @@ font-family: 'Amaranth', sans-serif;
     flex-wrap: wrap;
 }
 /* resposnive website */
-
 @media screen and (max-width:575.98px) {
-    body{
-        overflow-x: hidden;
-    }
+    
     .navbar {
         display: none;
-        width: 150px;
+        width: 150%;
         height: 400px;
         background-color: white;
         margin-left: 150px;
+        overflow-x: hidden;
     }
     .navbar ul {
         flex-direction: column;
@@ -946,6 +945,7 @@ font-family: 'Amaranth', sans-serif;
     flex-direction: column;
     justify-content: center;
     padding: 40px;
+    width: 100%;
 }
 .discount {
     display: flex;
@@ -1067,7 +1067,7 @@ font-family: 'Amaranth', sans-serif;
     justify-content: center;
     margin-right: 50%;
     margin-top: 40px;
-    margin-left: 157px;
+    margin-left: 39px;
 }
 /* To about us css */
 .shoppingpng img {
@@ -1091,7 +1091,7 @@ font-family: 'Amaranth', sans-serif;
     margin-top: 100px;
 }
 #ctn {
-    padding: 15px 15px;
+    padding: 6px 15px;
     border: none;
     border-radius: 10px;
     display: flex;
@@ -1100,9 +1100,10 @@ font-family: 'Amaranth', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     position: absolute;
-    left: 14rem;
+    left: 58%;
+    bottom: 42%;
     /* margin-top: 19px; */
-    top: 252px;
+    /* top: 251px; */
 }
 #ctn:hover{
     background-color: navajowhite;
@@ -1147,7 +1148,7 @@ hr{
     flex-direction: row;
     position: absolute;
     right: 41px;
-    bottom: 53px;
+    top: 10px;
 }
     
 .svg img{
@@ -1156,7 +1157,7 @@ hr{
 .svg h3{
     font-size: 12px;
 }
-.ditail{
+.ditails{
     position :relative;
 
 }
@@ -1164,14 +1165,14 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    left: 124px;
-    top: 62px;
+    position: absolute;
+    right: 236px;
+    
 }
 
 
 .footer{
-    height: 80vh;
+    height: 72vh;
     
 }
 /* kids style */
@@ -1184,6 +1185,12 @@ hr{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.main img{
+    width: 300px;
+}
+.style img{
+    width: 300px;
 }
 
 }
