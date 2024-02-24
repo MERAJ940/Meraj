@@ -838,7 +838,7 @@ font-family: 'Amaranth', sans-serif;
     flex-wrap: wrap;
 }
 /* resposnive website */
-@media screen and (max-width:575.98px) {
+@media screen and (max-width:400px) {
     
     .navbar {
         display: none;
@@ -866,7 +866,7 @@ header {
     left: 0;
     top: 0;
     z-index: 1;
-    width: 36rem;
+    width: 37rem;
     /* margin-left: 100px; */
     /* padding-right: 129px; */
 }
@@ -967,7 +967,7 @@ nav .res{
     width: 100%;
     /* margin-left: 45px; */
 }
-.col2{width: 116vw;
+.col2{width: 129vw;
 }
 .discount {
     display: flex;
@@ -998,7 +998,8 @@ nav .res{
     padding: 5px 10px;
     position: relative;
     top: 120px;
-    right: 250px;
+    /* right: 250px; */
+    left: 0;
     border-radius: 10px;
     border: none;
 }
@@ -1122,7 +1123,7 @@ nav .res{
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     position: absolute;
-    left: 61%;
+    left: 43%;
     bottom: 17%;
     /* margin-top: 19px; */
     /* top: 251px; */
@@ -1195,10 +1196,11 @@ hr{
 
 .footer{
     height: 66vh;
+    width: 147vw;
     
 }
 .col4{
-    width: 100%;
+    width:148vw;
 }
 /* kids style */
 .kidsdress img{
