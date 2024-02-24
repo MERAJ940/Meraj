@@ -861,6 +861,15 @@ font-family: 'Amaranth', sans-serif;
          display: none;
 
 }
+header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 36rem;
+    /* margin-left: 100px; */
+    /* padding-right: 129px; */
+}
 
 
 
@@ -871,19 +880,18 @@ nav .res{
   
   
 }
-.res h1{
- margin: 5px;
- padding: 5px;
- font-size: 24px;
- color:rgb(107, 10, 10);
-font-weight: bolder;
-font-family: 'Amaranth', sans-serif;
-
- 
+.res h1 {
+    margin: 5px;
+    padding: 5px;
+    font-size: 37px;
+    color: rgb(107, 10, 10);
+    font-weight: bolder;
+    font-family: 'Amaranth', sans-serif;
 }
-.res img{
-    margin-right: 3px;
-   
+.res img {
+    margin-right: 8px;
+    margin-bottom: 5px;
+    width: 40px;
 }
 
 
@@ -901,16 +909,27 @@ font-family: 'Amaranth', sans-serif;
     right: 50px;
     top: 18px;
     size: 20px;
+    margin: 5px;
 }
-.left img {
-    /* display: block; */
-    /* margin-left: -14px; */
-    /* margin-top: 30px; */
-    display: flex;
-    align-items: center;
-    margin-left: -111px;
-    margin-top: 63px;
+#menu i{
+    
+        font-weight: 900;
+        /* width: 20px; */
+        /* size: 192px; */
+        font-size: 34px;
+        color: rgb(107, 10, 10);
+    
 }
+
+  .left img {
+        /* display: block; */
+        /* margin-left: -14px; */
+        /* margin-top: 30px; */
+        display: flex;
+        align-items: center;
+        /* margin-left: -111px; */
+        margin-top: 63px;
+    }
 .banner {
     display: flex;
     align-items: center;
@@ -946,6 +965,9 @@ font-family: 'Amaranth', sans-serif;
     justify-content: center;
     padding: 40px;
     width: 100%;
+    /* margin-left: 45px; */
+}
+.col2{width: 116vw;
 }
 .discount {
     display: flex;
@@ -1071,7 +1093,7 @@ font-family: 'Amaranth', sans-serif;
 }
 /* To about us css */
 .shoppingpng img {
-    width: 100vw;
+    width: 191vw;
     height: 100vh;
 }
 .about{
@@ -1100,8 +1122,8 @@ font-family: 'Amaranth', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     position: absolute;
-    left: 58%;
-    bottom: 42%;
+    left: 61%;
+    bottom: 17%;
     /* margin-top: 19px; */
     /* top: 251px; */
 }
@@ -1148,7 +1170,7 @@ hr{
     flex-direction: row;
     position: absolute;
     right: 41px;
-    top: 10px;
+    top: 19rem;
 }
     
 .svg img{
@@ -1172,8 +1194,11 @@ hr{
 
 
 .footer{
-    height: 72vh;
+    height: 66vh;
     
+}
+.col4{
+    width: 100%;
 }
 /* kids style */
 .kidsdress img{
@@ -1192,5 +1217,45 @@ hr{
 .style img{
     width: 300px;
 }
+body{
+    scroll-behavior: auto;
+}
+.discount {
+    margin-top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 350px; */
+    /* height: 129px; */
+    /* margin-right: 75px; */
+}
+.discount img {
+    width: 130vw;
+    height: 40vh;
+    /* margin-left: 10px; */
+    /* padding-bottom: 40px; */
+    margin-bottom: 154px;
+}
+/* details prodcut css */
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50%;
+    margin-top: 40px;
+    margin-left: 50px;
 
+    /* margin-right: 150px; */
+    /* margin-left: 157px; */
+}
+#view {
+    display: flex;
+    align-items: center;
+    /* margin-left: 30px; */
+    margin-top: 21px;
+    position: absolute;
+    top: 375px;
+    right: 8px;
+}
 }
