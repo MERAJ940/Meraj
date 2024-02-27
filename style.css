@@ -838,8 +838,13 @@ font-family: 'Amaranth', sans-serif;
     flex-wrap: wrap;
 }
 /* resposnive website */
-@media screen and (max-width:400px) {
-    
+
+
+@media screen and (max-width:400px  ) {
+    body{
+        overflow-x: hidden;
+    }
+  
     .navbar {
         display: none;
         width: 150%;
@@ -866,7 +871,7 @@ header {
     left: 0;
     top: 0;
     z-index: 1;
-    width: 37rem;
+    width: 41rem;
     /* margin-left: 100px; */
     /* padding-right: 129px; */
 }
@@ -1122,9 +1127,15 @@ nav .res{
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    position: absolute;
-    left: 43%;
-    bottom: 17%;
+    position: relative;
+    top: 174px;
+    left: -339px;
+    /* right: 100px; */
+    /* right: 48rem; */
+    /* margin-right: 100%; */
+    /* position: absolute; */
+    /* left: 43%; */
+    /* bottom: 17%; */
     /* margin-top: 19px; */
     /* top: 251px; */
 }
@@ -1158,7 +1169,7 @@ hr{
     position: relative;
     top: 75px;
     /* right: 250px; */
-    left: 1px;
+    left: -101px;
 }
 .method h1{
     font-size: 30px;
@@ -1189,13 +1200,13 @@ hr{
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 236px;
+    right: 50%;
     
 }
 
 
 .footer{
-    height: 66vh;
+    height: 74vh;
     width: 147vw;
     
 }
